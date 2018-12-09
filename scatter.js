@@ -15,7 +15,7 @@ var xCat = "Calories",
     rCat = "Protein (g)",
     colorCat = "Manufacturer";
 
-d3.csv("cereal.csv", function(data) {
+d3.csv("./cereal.csv", function(data) {
   data.forEach(function(d) {
     d.Calories = +d.Calories;
     d.Carbs = +d.Carbs;
